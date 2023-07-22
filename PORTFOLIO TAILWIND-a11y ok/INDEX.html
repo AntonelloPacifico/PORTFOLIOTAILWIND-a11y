@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Antonello Pacifico Web Developer Portfolio</title>
+  <meta name="description" content="This is the portfolio of Antonello Pacifico, a web developer.">
+  <meta name="keywords" content="web developer, portfolio, Antonello Pacifico">
+  <meta name="author" content="Antonello Pacifico">
+  
+  <!-- SEO meta tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styes -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="container mx-auto mb-6 pt-3">
+    <nav aria-label="Main Navigation">
+      <a href="#" tabindex="0" class="mr-4">Projects</a>
+      <a href="#" tabindex="0" class="mr-4">About</a>
+      <a href="#" tabindex="0">Contact</a>
+      <hr>
+    </nav>
+  </header>
+
+  <main class="container mx-auto">
+    <section class="flex justify-center mb-6">
+      <img src="PHOTO PORTFOLIO ANTONELLO.png" alt="Antonello Pacifico - Web Developer" width="350">
+    </section>
+
+    <section class="text-center mb-6">
+      <h1 class="text-2xl">Antonello Pacifico - Web Developer</h1>
+      <h2 class="text-xl">I am a web developer, passionate about creating accessible and user-friendly websites.</h2>
+      <button tabindex="0" class="rounded-md px-4 py-2 mt-3 font-semibold text-sm bg-cyan-500 text-white shadow-sm">Hire Me!</button>
+    </section>
+
+    <section class="mb-6">
+      <nav aria-label="Secondary Navigation">
+        <button class="bg-red-500 text-white rounded-full shadow-sm px-4 py-2">HTML</button>
+        <button class="bg-orange-500 text-white rounded-full shadow-sm px-4 py-2">CSS</button>
+        <button class="bg-pink-500 text-white rounded-full shadow-sm px-4 py-2">JavaScript</button>
+      </nav>
+    </section>
+
+    <section>
+      <h3 class="text-2xl mb-3">My latest projects:</h3>
+      <select name="latestProjects" id="latestProjects">
+        <option value="html">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+      </select>
+    </section>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-12">
+      <a href="#"><img src="SCHEDA TECH 1.png" alt="Project 1"></a>
+      <a href="#"><img src="SCHEDA TECH 2.png" alt="Project 2"></a>
+      <a href="#"><img src="SCHEDA TECH 3.png" alt="Project 3"></a>
+    </section>
+
+    <section>
+      <h3 class="text-xl">Subscribe to my newsletter</h3>
+      <p class="mb-3">I write about web development, design, and other cool stuff</p>
+
+      <form class="mb-6">
+        <nav aria-label="Secondary Navigation" class="mb-2">
+          <label for="form-email">Email</label>
+          <input type="email" id="form-email" name="email" required class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">
+        </nav>
+        <button type="submit" class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container mx-auto">
+    <aside class="text-center">
+      <p class="mb-2">This is an unordered list of links.</p>
+      <nav aria-label="Secondary Navigation">
+        <a href="https://www.linkedin.com/in/antonellopacifico/">LinkedIn</a> |
+        <a href="https://github.com/antonellopacifico">GitHub</a> |
+        <a href="https://twitter.com/antonellopacifico">Twitter</a> |
+        <a href="https://www.instagram.com/antonellopacifico/">Instagram</a>
+      </nav>
+    </aside>
+  </footer>
+</body>
+</html>
